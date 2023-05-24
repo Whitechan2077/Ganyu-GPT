@@ -1,0 +1,81 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(icons/wallpaperflare.com_wallpaper45454.jpg);
+}
+
+#chat-window {
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#chat-messages {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  height: calc(100vh - 250px);
+  overflow: auto;
+}
+
+#chat-form {
+  display: flex;
+  align-items: center;
+}
+
+#chat-input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  /* border: 1px solid #ccc; */
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #f7efe5;
+  color: black;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.bot-message {
+  font-family: "Roboto", sans-serif;
+  /* background-color: #fffbf5;  */
+  text-align: justify;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  border-bottom: 1px white solid;
+  color: white;
+}
+
+.user-message {
+  font-family: "Nunito", sans-serif;
+  /* background-color: #f7efe5;  */
+  border-bottom: 1px white solid;
+  text-align: left;
+  padding: 15px; 
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  color: white;
+}
+.user-message img,
+.bot-message img {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 20px; 
+}
+.main-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #fffbf5;
+  font-weight: 900;
+}
